@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5;
+}
+
+.hero {
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/hero.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 75vh;
+  width: 100%;
+}
+
+.navigation {
+  margin: 0rem 6rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-right {
+  display: flex;
+  align-items: baseline;
+}
+
+.nav-right a {
+  color: white;
+  margin: 0 25px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.log-btn {
+  background-color: #2a75e6;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  margin-left: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.box-text {
+  margin: 2.5rem 3rem;
+  text-align: center;
+}
+
+.box-text h1 {
+  padding-bottom: 10px;
+  font-size: 3.5rem;
+}
+
+.box-text p {
+  font-size: 1.3rem;
+}
+
+.navigation a {
+  color: white;
+}
+
+.hero-btn {
+  background-color: rgb(223, 126, 15);
+  border: none;
+  color: white;
+  padding: 15px 48px;
+  font-size: 20px;
+  margin-top: 2.7rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.inform {
+  width: 100%;
+  position: absolute;
+  top: 67vh;
+}
+
+.inform-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  padding: 25px;
+  font-size: 24px;
+}
+
+.popular-venue {
+  background: #2a75e6;
+  width: 100%;
+  height: 100vh;
+}
+
+.popular-venue h2 {
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  padding: 1rem 6rem;
+  justify-content: space-around;
+}
+
+.card-venue {
+  background: white;
+  width: 25%;
+  height: 21rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card-venue img {
+  border-radius: 10px;
+  width: 100%;
+  height: 12rem;
+}
+
+.card-venue h4 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.card-venue p {
+  padding: 5px 16px;
+}
+
+.partner {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+}
+
+.partner h2 {
+  color: rgb(153, 153, 153);
+  padding-top: 3rem;
+  font-size: 2rem;
+}
+
+.partner-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.logo {
+  width: 25%;
+  height: 9rem;
+  background-position: center;
+}
+
+.img1 {
+  background-image: url(images/bizzy.png);
+  background-size: cover;
+}
+
+.img2 {
+  background-image: url(images/bukalapak.png);
+  background-size: cover;
+}
+
+.img3 {
+  background-image: url(images/dana.png);
+  background-size: cover;
+}
+
+.foto-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 12rem);
+  grid-gap: 10px;
+  padding: 1rem 0;
+  background-color: whitesmoke;
+}
+
+.foto-grid img {
+  width: 100%;
+  height: 100%;
+}
+
+.img-1 {
+  background-image: url(images/hero.jpeg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/4;
+}
+
+.img-2 {
+  background-image: url(images/atlantis.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 4/6;
+}
+
+.img-3 {
+  background-image: url(images/jepang.jpeg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 6/10;
+}
+
+.img-4 {
+  background-image: url(images/cina.jpeg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 10/13;
+}
+
+.img-5 {
+  background-image: url(images/milan.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/5;
+  grid-row: 2/4;
+}
+
+.img-6 {
+  background-image: url(images/italia.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 5/8;
+}
+
+.img-7 {
+  background-image: url(images/bali.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 8/11;
+}
+
+.img-8 {
+  background-image: url(images/nusadua.jpeg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 11/13;
+}
+
+.img-9 {
+  background-image: url(images/ga-1.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 5/7;
+}
+
+.img-10 {
+  background-image: url(images/yunani.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 7/10;
+}
+
+.img-11 {
+  background-image: url(images/ga-2.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 10/13;
+}
+
+.register {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.register-container {
+  padding: 2rem 0 0 0;
+  display: flex;
+}
+
+.reg-left {
+  background: linear-gradient(rgba(42, 117, 230, 0.5), rgba(42, 117, 230, 0.5)),
+    url(images/yunani.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 100vh;
+  position: relative;
+}
+
+.teks {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: white;
+}
+
+.reg-right {
+  background-color: whitesmoke;
+  width: 50%;
+  height: 100vh;
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.reg-right h4 {
+  color: #2a75e6;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.back {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #c4c4c4;
+  position: relative;
+  border-radius: 50%;
+}
+
+.back a {
+  text-decoration: none;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 25px;
+  color: whitesmoke;
+}
+
+.reg-right p {
+  text-align: center;
+  color: rgb(145, 145, 145);
+  padding: 40px 0 20px 0;
+  font-size: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.reg-btn {
+  background-color: #2a75e6;
+  border: none;
+  color: whitesmoke;
+  padding: 15px 60px;
+  font-size: 20px;
+  margin-top: 2rem;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+}
+
+.footer p {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 50px;
+}
